@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 1rem;
+}
+h1{
+    margin-bottom: 2rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#password-result{
+    width: 80%;
+    padding: 10px 0;
+    background-color: #F4F4F8;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.copy-btn{
+    width: 8%;
+    background-color: lightpink;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+.copy-btn img{
+   width: 30%;
+   height: 30%;
+   object-fit: contain;
+}
+
+.form-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.form-2 label{
+    padding: 5px;
+}
+
+.form-2 input{
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.form-3{
+    text-align: left;
+}
+
+.form-3 input{
+    margin: 5px;
+}
+.form-3 label{
+    margin: 10px 0;
+}
+.form-3 button{
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    margin: 1rem 40%;
+    cursor: pointer;
+    background-color: #9B9ECE;
+    color: black;
+    font-weight: 600;
+    border: 1px solid grey;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px  grey;
+    font-size: 1rem;
+}
+.form-3 button:hover{
+    background-color: #696EB5;
+    transition: .5s  ease-in-out;
+}
